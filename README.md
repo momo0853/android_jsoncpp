@@ -128,6 +128,7 @@ where `$PLATFORM` may be one of:
 * `msvc80`: Microsoft Visual Studio 2005
 * `msvc90`: Microsoft Visual Studio 2008
 * `linux-gcc`: Gnu C++ (linux, also reported to work for Mac OS X)
+* `android-gcc`: arm-linux-androideabi-gcc(Android NDK, see [jsoncpp/makefiles/android/jni](https://github.com/momo0853/android_jsoncpp/blob/master/makefiles/android/jni/Android.mk))
 
 If you are building with Microsoft Visual Studio 2008, you need to set up the
 environment by running `vcvars32.bat` (e.g. MSVC 2008 command prompt) before
